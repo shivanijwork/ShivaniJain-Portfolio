@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Shivani Jain Portfolio</title>
+    <!-- In your <head> section, add: -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- ...existing code... -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<!-- ...existing code... -->
+    <style>
+        .cute-paragraph {
+            font-family: 'Caveat', cursive;
+            font-size: 1.5rem;
+            color: black;
+            line-height: 1.7;
+        }
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Caveat', cursive;
+            margin: 0;
+            padding: 0;
+        }
+        .funky-heading {
+            font-family: 'Baloo 2', cursive, sans-serif;
+            font-size: 2.2rem;
+            color: black;
+            letter-spacing: 1px;
+            margin: 30px 0 20px 0;
+            text-shadow: 1px 2px 8px #e0c3fc;
+        }
+        .navbar, .navbar * {
+        font-family: 'Caveat', cursive;
+            font-size: 1.2rem;
+        /* font-family: 'Poppins', sans-serif !important; */
+        letter-spacing: 0.5px;
+         
+    }
+    .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1f1f1f; /* Your dark header background */
+  /* padding: 10px 20px; */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   padding: 6px 20px; 
+}
+#about-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+#about-section .text-center {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+#about-section h2 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new Typed("#typed-text", {
+      strings: [
+        
+        "Software Developer",
+        "Data Scientist",
+        "A Curious Maniac",
+        "Just a Maniac Actually!!!",
+        "To Be Honest, Very Meticulous Maniac :)"
+      ],
+      typeSpeed: 60,
+      backSpeed: 30,
+      backDelay: 1200,
+      loop: true,
+      showCursor: true
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Left: Name/Brand -->
+            <a class="navbar-brand" href="index.html" style="font-family: 'Caveat', cursive; font-size: 2rem;">
+                Shivani Jain
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Right: Nav links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects-section">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills-section">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- <h3 align="center" class="funky-heading">Hey World!! I'm Shivani</h3> -->
+     <section id="about-section">
+         <div class="text-center">
+            <h2>Hello, I'm Shivani Jain</h2>
+             <h1><span id="typed-text"></span></h1>
+             <img src="Author2.jpeg" alt="Shivani Jain" class="rounded-circle shadow" width="200" height="200"
+                 style="object-fit: cover; object-position: center;">
+         </div>
+         <div class="container">
+             <p class="cute-paragraph" align="center">
+                 Hi, I’m Shivani — a passionate software developer and data science enthusiast with a keen interest in solving real-world problems through technology.
+I recently completed my MCA from VIT Chennai, where I honed my skills in building impactful, data-driven solutions.<br>
+Beyond coding and analytics, I love diving into books, exploring new ideas, and volunteering with NGOs to make a positive difference in the community.</p>
+         </div>
+     
+        <div class="container my-4">
+            <h5 class="text-center" style="font-family: 'Caveat', cursive; color: #6f42c1;">Favorite Quote</h5>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0" style="font-family: 'Caveat', cursive;">"The stupidest possible creative act is still a
+                    creative act. - Clay Shirky"</p>
+            </blockquote>
+        </div>
+        <div class="text-center my-4" id="connect-section">
+            <h5 class="text-center" style="font-family: 'Caveat', cursive; color: #6f42c1;">Connect with Me</h5>
+            <a href="mailto:shivanijwork@gmail.com" class="btn btn-outline-success mx-2">Email Me <svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg></a>
+            <a href="https://www.linkedin.com/in/shivani-jain13" class="btn btn-outline-info mx-2">LinkedIn <svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg></a>
+            <a href="https://www.instagram.com/shivani___jain___" class="btn btn-outline-danger mx-2">Github <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+</svg></a>
+        </div>
+    </div>
+    </section>
+    <div class="divider"></div>
+    <!-- Place this just before <section id="projects-section"> -->
+<div class="divider"></div>
+<!-- <section id="internship-section">
+    <h2 class="text-center" style="font-family: 'Caveat', cursive; color: black">Internship Experience</h2>
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-sm mb-4" style="max-width: 600px;">
+            <div class="card-body">
+                <h5 class="card-title text-center" style="font-family: 'Caveat', cursive;">
+                    Data Analyst Intern
+                </h5>
+                <p class="card-text text-center mb-1">
+                    <strong>ConTecHub Solutions Pvt. Ltd.</strong><br>
+                    <span style="font-size: 0.95rem;">May 2024 – Aug 2024</span>
+                </p>
+                <ul style="font-size: 1rem;">
+                    <li>Utilized Python and SQL for data analysis and reporting, enhancing data-driven decision-making for demographic and firmographic evaluations.</li>
+                    <li>Conducted web scraping to collect relevant data and utilized the company's dynamic CRM for efficient data management and insightful reporting.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- ...then your Projects section... -->
+    <section id="projects-section" data-aos="flip-left">
+        <h2 class="text-center" style="font-family: 'Caveat', cursive; color: black;">Projects</h2>
+
+
+        <!-- AI/ML Projects Subsection -->
+        <div class="project-subsection">
+            <h3 class="text-center" style="font-family: 'Caveat', cursive; color: #6f42c1;">Python, AI/ML</h3>
+            <div #swiperRef="" class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://github.com/shivanijwork/Skincare-Recommendation-System" target="_blank" class="project-box">
+                            <picture>
+                                
+                                <img src="Skincare_SS.jpg" alt="Floppy Fish">
+                            </picture>
+                            <h4>Skincare Recommender</h4>
+                            <h6><em>Python, Scikit-learn</em></h6>
+                            <p>A mini ML project that recommends similar skincare products and predicts their type based on ingredients.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://github.com/shivanijwork/ChennaiFloodMappingML" target="_blank" class="project-box">
+                            <picture>
+                                
+                                <img src="RedZones.png" alt="Circles">
+                            </picture>
+                            <h4>Flood Mapping - Chennai</h4>
+                            <h6><em>Models:
+DT · RF · GB · DNN</em></h6>
+                            <p>Flood risk prediction for Chennai using ML and spatial data, visualized on interactive maps.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://github.com/stephanieran/github-issues" target="_blank" class="project-box">
+                            <picture>
+                                
+                                <img src="Placement_SS.jpg" alt="Github Issues">
+                            </picture>
+                            <h4>Placement Prediction System</h4>
+                            <h6><em>Pandas, NumPy</em></h6>
+                            <p>This project was built as part of my academic learning to explore supervised learning techniques.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://github.com/shivanijwork/Personal-Finance-Tracker" target="_blank" class="project-box">
+                            <picture>
+                                
+                                <img src="FinanceTracker_SS.png" alt="Finance Tracker">
+                            </picture>
+                            <h4>Personal Finance Tracker</h4>
+                            <h6><em>Pandas, Matplotlib</em></h6>
+                            <p>A CLI tool to track your income and expenses and savings, and visualize your financial data over time.</p>
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Design Projects Subsection -->
+        <div class="project-subsection">
+            <h3 class="text-center" style="font-family: 'Caveat', cursive; color: #6f42c1;">Design & Development</h3>
+            <div #swiperRef="" class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://shivanijwork.github.io/Virtual-Terranium/" target="_blank" class="project-box">
+                            <picture>
+                                <!-- <source srcset="images/webp/tissue-patch-1.webp" type="image/webp"> -->
+                                <img src="Terranium_Screenshot.png" alt="Terranium">
+                            </picture>
+                            <h4>Virtual Terranium</h4>
+                            <h6><em>HTML, CSS, JavaScript</em></h6>
+                            <p>A fun and interactive project where users can drag and drop plants into a virtual terranium.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://shivanijwork.github.io/NerdWorthy/index.html"
+                            target="_blank" class="project-box">
+                            <picture>
+                                <!-- <source srcset="images/webp/twelve-week-year.webp" type="image/webp"> -->
+                                <img src="NerdWorthy_Screenshot.png" alt="NerdWorthy">
+                            </picture>
+                            <h4>NerdWorthy</h4>
+                            <h6>HTML, CSS, Bootstrap5, JavaScript</h6>
+                            <p>NerdWorthy is my personal website where I share book reviews, tech insights, and business case studies</em>.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://shivanijwork.github.io/FlappyBird/"
+                            target="_blank" class="project-box">
+                            <picture>
+
+                                <img src="FlappyBird_SS.png" alt="Flappy Bird Clone">
+                            </picture>
+                            <h4>Flappy Bird Clone</h4>
+                            <h6><em>HTML, CSS, JavaScript</em></h6>
+                            <p>A simple web application that replicates the classic Flappy Bird game mechanics.</p>
+                        </a>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <a href="https://youtu.be/9gVfe0mJjMQ" target=_blank class="project-box">
+                            <picture>
+                              
+                                <img src="TicTacToe_SS.png" alt="Tic-Tac-Toe">
+                            </picture>
+                            <h4>Tic-Tac-Toe</h4>
+                            <h6><em>ReactJS</em></h6>
+                            <p>I spearheaded the installation of <em>Wasted Ocean</em>, a mural of ocean life made
+                                entirely from student waste.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.figma.com/proto/tFWajo60gJhZ0mZ5PjjMZb/Restaurent-app?page-id=0%3A1&node-id=1-3&p=f&viewport=-272%2C307%2C0.76&t=mtCJLbKBE2hhGv5Q-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=7%3A203" target=_blank class="project-box">
+                            <picture>
+
+                                <img src="RestaurentApp_Design.png" alt="Restaurant App Design">
+                            </picture>
+                            <h4>Restaurant App Design</h4>
+                            <h6><em>Figma</em></h6>
+                            <p>I designed a restaurant app interface focusing on user experience and modern design principles.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://github.com/shivanijwork/TypingGame"
+                            target="_blank" class="project-box">
+                            <picture>
+                            
+                                <img src="Typing_Game_Screenshot.png" alt="Typing Game">
+                            </picture>
+                            <h4>Typing Speed Test</h4>
+                            <h6><em>HTML, CSS, JavaScript</em></h6>
+                            <p>A simple web application that helps users test their typing speed and accuracy in real-time.</p>
+                        </a>
+                    </div>
+
+                    <!-- <div class="swiper-slide">
+                        <a href="https://www.figma.com/design/ldmrdlXEzcKOQCGWQD9hzG/Assignment-5---Native-App-with-Retention?node-id=0-1&p=f&t=SH0RlarLtnl9onec-0"
+                            target="_blank" class="project-box">
+                            <picture>
+                                <source srcset="images/webp/job-seaerch-design.webp" type="image/webp">
+                                <img src="images/job-seaerch-design.png" alt="Job Search App">
+                            </picture>
+                            <h4>Job Search App</h4>
+                            <h5><em>Figma</em></h5>
+                            <p>I designed a simple native job search iOS app targeted towards new grads.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.figma.com/design/ugfzGq3DAgZKZX5YzDI2vE/RecipeWebsite?node-id=0-1&p=f&t=aRh6L1fb70qqi10w-0"
+                            target="_blank" class="project-box">
+                            <picture>
+                                <source srcset="images/webp/lunisolar.webp" type="image/webp">
+                                <img src="images/lunisolar.png" alt="Lunisolar">
+                            </picture>
+                            <h4>Lunisolar</h4>
+                            <h5><em>Figma</em></h5>
+                            <p>I designed a simple recipe website page inspired by the Lunar New Year.</p>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- ...existing code... -->
+<div class="project-subsection" data-aos="zoom-in-up">
+    <h3 class="text-center" style="font-family: 'Caveat', cursive; color: #6f42c1;">Research Work</h3>
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-sm mb-4" style="max-width: 600px;">
+            <div class="card-body">
+                <h5 class="card-title text-center" style="font-family: 'Caveat', cursive; color: #6f42c1;">
+                    Published Paper 
+                    <span class="badge bg-success ms-2">
+                        Best Paper Award
+                    </span>
+                </h5>
+                <p class="card-text text-center mb-2">
+                    <strong>Title:</strong> Real Estate Market in the Digital Age: A Review of Technology Trends and Advancements<br>
+                    <strong>Conference:</strong> ICRTAC <br>
+                    <strong>Year:</strong> 2023
+                </p>
+                <p class="card-text text-center">
+                    My research paper was published and received the <b>Best Paper Award</b> for its contribution and impact in the field.
+                </p>
+                <div class="text-center">
+                    <a href="https://ieeexplore.ieee.org/document/10480781" target="_blank" class="btn btn-outline-primary btn-sm">View Paper</a>
+                </div><br>
+                <div class="text-center">
+                    <a href="https://drive.google.com/file/d/1ZEf5H8zN_wwdF9fdIXQiwMHGW3KJxecw/view?usp=sharing" target="_blank" class="btn btn-outline-primary btn-sm">View Certificate</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ...existing code... -->
+    </section>
+    <div class="divider"></div>
+    <section id="skills-section" data-aos="flip-left">
+        <h2 class="text-center" style="font-family: 'Caveat', cursive; color: black;">Skills</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Languages -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="font-family: 'Caveat', cursive; color : #6f42c1;">Languages</h5>
+                            <p class="card-text text-center">C, C++, Python</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web Technologies -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="font-family: 'Caveat', cursive; color : #6f42c1;">Web Technologies</h5>
+                            <p class="card-text text-center">HTML, CSS, JavaScript, React</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Databases -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="font-family: 'Caveat', cursive; color : #6f42c1;">Databases</h5>
+                            <p class="card-text text-center">SQL, MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ML Frameworks -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="font-family: 'Caveat', cursive; color : #6f42c1;">ML Frameworks</h5>
+                            <p class="card-text text-center">PyTorch, Keras, TensorFlow</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Data Tools -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="font-family: 'Caveat', cursive; color : #6f42c1;">Data Tools</h5>
+                            <p class="card-text text-center">Power BI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <footer class="bg-dark text-light py-4 mt-5 w-100" style="position: relative; left: 0; right: 0;">
+    <div class="text-center">
+        <h5 class="mb-2">Made with <span style="color:#b57edc;">&#10084;&#65039;</span> by Shivani Jain</h5>
+        <p class="mb-1">Thank you for exploring my portfolio. Let's connect and build something great together!</p>
+        <div class="mb-2">
+            <a href="#about-section" class="text-light mx-2 text-decoration-none">Home</a>|
+            <a href="#about-section" class="text-light mx-2 text-decoration-none">About</a>|
+            <a href="#connect-section" class="text-light mx-2 text-decoration-none">Contact</a>
+        </div>
+        <small>&copy; 2025 Shivani Jain. All rights reserved.</small>
+    </div>
+</footer>
+
+</body>
+
+</html>
